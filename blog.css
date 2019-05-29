@@ -1,0 +1,28 @@
+body {
+    font-family: "source sans pro";
+}
+#container {
+    background: grey;
+    width: 80%;
+    margin: auto;
+}
+
+#page {
+    background: white;
+    width: 90%;
+    margin: auto;
+    padding: 0.5% 2%;
+}
+
+.date {
+    color: lightblue;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.8em;
+}
+
+.quote {
+    border-left: 4px solid lightgrey;
+    padding-left: 10px;
+}
+
