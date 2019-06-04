@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Image Gallery</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
 
 <!-- Extra spacing between elements and sections for easier visualization of grouping and layout -->
-<nav class="navbar navbar-default">
+
+<!-- Navbar in container -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"        data-target="#bs-nav-demo" aria-expanded="false">
@@ -19,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">DevMe</a>
+            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> DevMe</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-nav-demo">
             <ul class="nav navbar-nav">
@@ -34,12 +37,61 @@
     </div>
 </nav>
 
+<!-- Page content in container -->
 <div class="container">
 
     <div class="jumbotron">
-        <h1>The Image Gallery</h1>
+        <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Image Gallery</h1>
         <p>This is an image gallery</p>
-        <p>This is a new test paragraph</p>
+    </div>
+
+    <!-- Images in row. Self adjusting as sum is more than 12 at each given size. Best practice this way?-->
+    <div class="row">
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1418393781697-0215e2fd73e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2558&q=80" alt="">
+            </div>
+        </div>
     </div>
 
 </div>
