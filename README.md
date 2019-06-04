@@ -5,3 +5,5 @@ This repository is solely intended as an area to practice and familiarize myself
 Basic understanding of uploads complete. Time to use github to store project files and pull, modify, and push to repository. Bootstrap image gallery good option for trial.
 
 Note: Initially planned on going through git to access github. Finding that git knowledge limited and slowing progress from webdev time. For time, being will access github directly through website and continue learning git during tool training time.
+
+Finding: uploading file with same name overwrites old file with same name without warning or checks. 
