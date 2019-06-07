@@ -6,4 +6,6 @@ Basic understanding of uploads complete. Time to use github to store project fil
 
 Note: Initially planned on going through git to access github. Finding that git knowledge limited and slowing progress from webdev time. For time, being will access github directly through website and continue learning git during tool training time.
 
-Finding: uploading file with same name overwrites old file with same name without warning or checks. Commit as branch unless certain.
+Finding: Uploading file with same name overwrites old file with same name without warning or checks. Commit as branch unless certain.
+
+Finding: Git: git init in desired directory otherwise all files in current directory will be included and VSCode will yell at you. 
