@@ -1,27 +1,60 @@
 body {
-    background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);
-    background-size: cover;
-    background-position: center;
-    font-family: 'Lato', sans-serif;
+    background: #f5d9d5;
+    font-family: "Nunito", sans serif;
+}
+
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
     color: white;
 }
 
-#content {
-    text-align: center;
-    padding-top: 25%;
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 5em;
+#headingGroup span {
+    color: red;
 }
 
-html {
-    height: 100%;
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
 }
 
-hr  {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: background 500ms;
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+.content {
+    margin-top: 100px;
 }
